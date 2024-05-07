@@ -1,0 +1,12 @@
+{
+    "cms_id": "",
+    "cms_name": "WordPress Version 6.4.1",
+    "cms_url": "https://wordpress.org",
+    "detection_param": "generator",
+    "last_scanned": "2024-05-05 23:46:27.387900",
+    "url": "https://test.projectname.click/",
+    "wp_license": "https://test.projectname.click//license.txt",
+    "wp_plugins": "woocommerce Version 4.1.0,",
+    "wp_readme_file": "https://test.projectname.click//readme.html",
+    "wp_version": "6.4.1"
+}

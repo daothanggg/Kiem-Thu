@@ -1,0 +1,14 @@
+{
+    "cms_id": "wp",
+    "cms_name": "WordPress Version 6.5.2",
+    "cms_url": "https://wordpress.org",
+    "detection_param": "header",
+    "last_scanned": "2024-05-05 22:49:43.883137",
+    "url": "https://trongtran.projectname.click/",
+    "wp_license": "https://trongtran.projectname.click//license.txt",
+    "wp_plugins": "elementor-pro Version 3.14.0,elementor Version 3.19.4,astra-sites Version 06758,",
+    "wp_readme_file": "https://trongtran.projectname.click//readme.html",
+    "wp_themes": "astra Version 4.6.6,",
+    "wp_users": "trongtran28102002,",
+    "wp_version": "6.5.2"
+}

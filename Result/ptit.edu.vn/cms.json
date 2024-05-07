@@ -1,0 +1,13 @@
+{
+    "cms_id": "",
+    "cms_name": "WordPress Version 5.0.21",
+    "cms_url": "https://wordpress.org",
+    "detection_param": "header",
+    "last_scanned": "2024-05-05 11:00:56.810056",
+    "target_url": "https://portal.ptit.edu.vn",
+    "url": "https://ptit.edu.vn/",
+    "wp_plugins": "wp-logo-showcase-responsive-slider-slider Version 1.2.3,revslider Version 5.4.8,",
+    "wp_themes": "betheme Version 12.4,",
+    "wp_users": "trungnqt,khcn,buihieu,dunghd,dung,tranglm,linhnt,phongdaotao,thunt,quanggv,duckt,yptn,yencth,",
+    "wp_version": "5.0.21"
+}

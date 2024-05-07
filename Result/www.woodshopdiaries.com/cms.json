@@ -1,0 +1,10 @@
+{
+    "cms_id": "",
+    "cms_name": "WordPress Version 0",
+    "cms_url": "https://wordpress.org",
+    "detection_param": "source",
+    "last_scanned": "2024-04-23 13:27:27.578744",
+    "url": "https://www.woodshopdiaries.com/",
+    "wp_plugins": "official-mailerlite-sign-up-forms Version 1712937035,imark-interactive-toolkit Version 1614270341,simple-social-icons Version 1712937035,jquery-pin-it-button-for-images Version 1712937035,",
+    "wp_themes": "genesis Version 3.5.0,foodiepro-v441 Version 1712937035,"
+}

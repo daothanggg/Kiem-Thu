@@ -1,0 +1,72 @@
+{
+    "last_updated": "2024-05-06 13:25:26.019606",
+    "results": [
+        {
+            "http://192.168.219.132/": {
+                "cms_id": "",
+                "date": "2024-05-06 12:07:04.672860",
+                "report": "C:\\Users\\Admin\\Desktop\\Project\\Result\\192.168.219.132\\cms.json"
+            },
+            "https://crimeaua1.wordpress.com/": {
+                "cms_id": "",
+                "date": "2024-04-23 13:26:53.629586",
+                "report": "C:\\Users\\Admin\\Desktop\\Project\\Result\\crimeaua1.wordpress.com\\cms.json"
+            },
+            "https://erectionnaturalherbs.wordpress.com/": {
+                "cms_id": "",
+                "date": "2024-04-23 13:28:23.724866",
+                "report": "C:\\Users\\Admin\\Desktop\\Project\\Result\\erectionnaturalherbs.wordpress.com\\cms.json"
+            },
+            "https://facebook.com/": {
+                "cms_id": "",
+                "date": "2024-04-13 21:57:30.158747",
+                "report": "C:\\Users\\Admin\\Desktop\\Project\\Result\\facebook.com\\cms.json"
+            },
+            "https://mku.edu.vn/": {
+                "cms_id": "",
+                "date": "2024-04-23 15:10:33.066666",
+                "report": "C:\\Users\\Admin\\Desktop\\Project\\Result\\mku.edu.vn\\cms.json"
+            },
+            "https://portal.ptit.edu.vn/": {
+                "cms_id": "",
+                "date": "2024-05-05 22:50:21.742352",
+                "report": "C:\\Users\\Admin\\Desktop\\Project\\Result\\portal.ptit.edu.vn\\cms.json"
+            },
+            "https://ptit.edu.vn/": {
+                "cms_id": "",
+                "date": "2024-05-05 11:00:56.810056",
+                "report": "C:\\Users\\Admin\\Desktop\\Project\\Result\\ptit.edu.vn\\cms.json"
+            },
+            "https://test.projectname.click/": {
+                "cms_id": "",
+                "date": "2024-05-05 23:46:27.387900",
+                "report": "C:\\Users\\Admin\\Desktop\\Project\\Result\\test.projectname.click\\cms.json"
+            },
+            "http://test1.projectname.click/": {
+                "cms_id": "",
+                "date": "2024-04-23 15:11:21.306985",
+                "report": "C:\\Users\\Admin\\Desktop\\Project\\Result\\test1.projectname.click\\cms.json"
+            },
+            "https://trongtran.projectname.click/": {
+                "cms_id": "wp",
+                "date": "2024-05-05 22:49:43.883137",
+                "report": "C:\\Users\\Admin\\Desktop\\Project\\Result\\trongtran.projectname.click\\cms.json"
+            },
+            "https://urdu2hindi.wordpress.com/": {
+                "cms_id": "",
+                "date": "2024-04-23 13:28:55.218548",
+                "report": "C:\\Users\\Admin\\Desktop\\Project\\Result\\urdu2hindi.wordpress.com\\cms.json"
+            },
+            "http://www.msftconnecttest.com/redirect/": {
+                "cms_id": "",
+                "date": "2024-04-23 13:25:27.204968",
+                "report": "C:\\Users\\Admin\\Desktop\\Project\\Result\\www.msftconnecttest.com_redirect\\cms.json"
+            },
+            "https://www.woodshopdiaries.com/": {
+                "cms_id": "",
+                "date": "2024-04-23 13:27:27.578744",
+                "report": "C:\\Users\\Admin\\Desktop\\Project\\Result\\www.woodshopdiaries.com\\cms.json"
+            }
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "cms_id": "",
+    "cms_name": "WordPress Version 4.1.13",
+    "cms_url": "https://wordpress.org",
+    "detection_param": "generator",
+    "last_scanned": "2024-04-23 15:11:21.306985",
+    "url": "http://test1.projectname.click/",
+    "wp_license": "http://test1.projectname.click//license.txt",
+    "wp_plugins": "easy-digital-downloads Version 2.0,",
+    "wp_readme_file": "http://test1.projectname.click//readme.html",
+    "wp_themes": "twentythirteen Version 3.03,",
+    "wp_version": "4.1.13",
+    "xmlrpc": "http://test1.projectname.click//xmlrpc.php"
+}

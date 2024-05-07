@@ -1,0 +1,13 @@
+{
+    "cms_id": "",
+    "cms_name": "WordPress Version 6.5.2",
+    "cms_url": "https://wordpress.org",
+    "detection_param": "header",
+    "last_scanned": "2024-05-06 13:25:26.051213",
+    "url": "http://192.168.219.132/",
+    "wp_license": "http://192.168.219.132//license.txt",
+    "wp_plugins": "woocommerce Version 4.1.0,",
+    "wp_readme_file": "http://192.168.219.132//readme.html",
+    "wp_users": "admin,",
+    "wp_version": "6.5.2"
+}
