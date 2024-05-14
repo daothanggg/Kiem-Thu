@@ -1,14 +1,15 @@
 {
     "cms_id": "",
-    "cms_name": "WordPress Version 4.1.13",
+    "cms_name": "WordPress Version 6.5.3",
     "cms_url": "https://wordpress.org",
-    "detection_param": "generator",
-    "last_scanned": "2024-04-23 15:11:21.306985",
+    "detection_param": "header",
+    "last_scanned": "2024-05-14 13:14:13.772345",
     "url": "http://test1.projectname.click/",
     "wp_license": "http://test1.projectname.click//license.txt",
-    "wp_plugins": "easy-digital-downloads Version 2.0,",
+    "wp_plugins": "wp-live-chat-support Version 10.0.12,woocommerce Version 2.5.16,suretriggers Version 1.0.46,presto-player Version 1715104059,ultimate-addons-for-gutenberg Version 2.13.1,surecart Version 1715104032,astra-sites Version 06758,",
     "wp_readme_file": "http://test1.projectname.click//readme.html",
-    "wp_themes": "twentythirteen Version 3.03,",
-    "wp_version": "4.1.13",
+    "wp_themes": "astra Version 4.6.13,",
+    "wp_users": "test,",
+    "wp_version": "6.5.3",
     "xmlrpc": "http://test1.projectname.click//xmlrpc.php"
 }

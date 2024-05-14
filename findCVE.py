@@ -6,6 +6,7 @@ import json
 from pyExploitDb import PyExploitDb
 from bs4 import BeautifulSoup
 import subprocess
+from evn import pdf
 
 
 def find_cpes(component, version):
@@ -30,6 +31,7 @@ def find_cpes(component, version):
 
 
 def fetch_cve_details(cpe_string, component):
+    pointAvg = 0.0
     base_url = "https://services.nvd.nist.gov/rest/json/cves/2.0"
     results = []
 
@@ -40,13 +42,15 @@ def fetch_cve_details(cpe_string, component):
     
     if response.status_code != 200:
         print(colored(f"[i] Khong tim thay CVE", "green"))
-        return []
+        pdf.cell(200, 10, txt= "Khong tim thay CVE", ln=1, align='L')
+        return 0.0
 
     try:
         data = response.json()
     except json.JSONDecodeError:
         print(colored(f"[i] Khong tim thay CVE", "green"))
-        return []
+        pdf.cell(200, 10, txt= "Khong tim thay CVE", ln=1, align='L')
+        return 0.0
     # print(data)
     if "resultsPerPage" in data:
         cves = data["vulnerabilities"]
@@ -66,19 +70,26 @@ def fetch_cve_details(cpe_string, component):
             print(colored(f"\n[i] {cve_id}", "red"))
             print(colored("- Description:", "blue"), description)
             print(colored("- CVSS:", "blue"), CVSS)
+            pdf.cell(200, 10, txt= f"- ID: {cve_id}", ln=1, align='L')
+            pdf.cell(200, 10, txt= f"  Description: {description}", ln=1, align='L')
+            pdf.cell(200, 10, txt= f"  CVSS: {CVSS}", ln=1, align='L')
+            pointAvg = max(pointAvg, float(CVSS))
 
             github = f"https://github.com/trickest/cve/blob/main/{cve_id.split('-')[1]}/{cve_id}.md"
             res = requests.get(github)
             if res.status_code == 200:
                 print(colored(f"- More information: https://github.com/trickest/cve/blob/main/{cve_id.split('-')[1]}/{cve_id}.md", "blue"))
+                pdf.cell(200, 10, txt= f"  More information: https://github.com/trickest/cve/blob/main/{cve_id.split('-')[1]}/{cve_id}.md", ln=1, align='L')
             else:
                 print(colored("[] PoC Not Found", "red"))
+            pdf.cell(200, 10, txt= f"  PoC Not Found", ln=1, align='L')
             results.append(cve_details)
     print(colored(f"[c] Ban nen cap nhat {component} len phien ban moi nhat!", "red"))
-    return results
+    pdf.cell(200, 10, txt= f"=> Ban nen cap nhat {component} len phien ban moi nhat!", ln=1, align='L')
+    return pointAvg
 
 def findCVE(component, version):
-
+    results = 0.0
     cpe_strings = find_cpes(component, version)
     
     if cpe_strings:    
@@ -87,5 +98,6 @@ def findCVE(component, version):
             break
     else:
         print(colored("[i] Khong tim thay CVE", "green"))
+    return results
 
 # findCVE("live_chat", "4.1.10")

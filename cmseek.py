@@ -175,7 +175,7 @@ def checkVersion(url):
         site = cmseek.targetinp(url) # Get The User input
         if cua == None:
             cua = cmseek.randomua()
-        core.main_+proc(site,cua)
+        core.main_proc(site,cua)
         cmseek.handle_quit()
 
     else:
